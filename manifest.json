@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write a blog post in the style of your favorite thinker anywhere!",
+  "name": "Python-3 Program Generator",
+  "description": "highlight your problem statement, we'll do the rest!",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -11,6 +11,7 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Generate blog post"
-  }
+    "default_title": "Generate Python Program"
+  },
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
